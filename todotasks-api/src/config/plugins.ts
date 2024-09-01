@@ -11,7 +11,7 @@ export const registerPlugins = () => {
 
   // CORS Setup
   app.register(cors, {
-    origin: envConstants.WEBSITE_URL || "http://localhost:3000",
+    origin: envConstants.WEBSITE_URL,
     credentials: true,
   });
 

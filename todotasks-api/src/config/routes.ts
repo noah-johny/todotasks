@@ -19,6 +19,6 @@ export const registerRoutes = () => {
 
   addSchemas(schemaModules);
 
-  app.register(userRoutes, { prefix: "/api" });
+  app.register(userRoutes, { prefix: "/api/users" });
   app.register(projectRoutes, { prefix: "/api/projects" });
 };
